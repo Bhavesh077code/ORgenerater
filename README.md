@@ -17,9 +17,8 @@ Features
 - Other Tools:** Nodemon (for dev), Postman (for API testing)
 
 
-Installation & Setup
-### Backendar
-cd backend
-npm install
-npm start (if not run code 'npm start' than try the given below)
-#  npx nodemon app.js
+# Backend Installation & Setup
+1.cd backend
+2.npm install
+3.npm start (if not run code 'npm start' than try the given below)
+4. npx nodemon app.js
