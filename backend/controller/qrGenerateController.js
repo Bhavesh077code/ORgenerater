@@ -5,12 +5,13 @@ export const orGenerate = async (req, res) => {
     try {
         const { link } = req.query;
 
+        /*
         if(!link){
             return res.status(400).json({
                 success:false,
                 message:"LInk is Required"
             });
-        };
+        }; */
 
         const qr = await QRCode.toDataURL(link);
         
